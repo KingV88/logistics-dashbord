@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Logistics Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>📦 Logistics Dashboard</h1></header>
+<section class="controls"><button id="exportCsv">Export CSV</button></section>
+<main class="dashboard">
+<aside id="summary"></aside>
+<section id="tableSection"><table id="dataTable"><thead></thead><tbody></tbody></table></section>
+<section id="charts"><canvas id="dailyChart"></canvas><canvas id="weeklyChart"></canvas></section>
+</main>
+<script src="assets/papaparse.min.js"></script>
+<script src="assets/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body></html>
